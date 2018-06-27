@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+
+<link rel = "stylesheet" type = "text/css" href = "css/regform.css">
+
+
+
+</head>
+<body>
+
+	
+	
+	<div id = "main">
+	
+	<label><b>Accomadations</b></label>
+      <select  id="test" name="ab" onchange="add_input_fields()">
+    <option value="-1">None</option>
+    <option value="1">Private room</option> 
+    <option value="2">Group room</option>
+    <option value="3">President room</option>
+      </select>
+	  </div>
+	  <div id="add">
+	  
+	  </div>
+	  <script type="text/javascript">
+	 
+		var room = 1;
+		function add_input_fields() {
+			 removeElement("add");
+			var x = document.getElementById("test").value;
+		  //alert(x);
+		  if(x > 0 ){
+			room++;
+			
+			var i;
+			for (i = 0; i < x; i++) { 
+					var objTo = document.getElementById('add')
+			var divtest = document.createElement("div");
+			divtest.innerHTML = '<div><label style = "color: black;" for="added'+ i +'"><b>VisitorID</b></label><input id = "added'+ i +'"  type="text" name="width[]" value="" /></div>';
+			objTo.appendChild(divtest)
+									}
+		  }
+		}
+		
+		function removeElement(elementId) {
+    // Removes an element from the document
+    var element = document.getElementById(elementId);
+   
+	while (element.firstChild) {
+    element.removeChild(element.firstChild);
+}
+}
+		
+    </script>
+	 
+	 
+	 
+	 
+	 <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	 
+</body>
+
+
+</html>

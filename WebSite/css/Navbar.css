@@ -1,0 +1,115 @@
+
+
+
+
+
+.subbar {
+	width:1600px;
+	margin: 0px auto;
+}
+
+
+#navbar{
+	
+	height: 35px;
+	width: 100%;
+	display: inline;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	Background-color:whitesmoke;
+	color: white;
+	position:fixed;
+	z-index: 3;
+	
+	border-bottom: 0.5px solid grey; /* Green */
+}
+
+#navbar ul{
+	
+	height: inherit;
+	margin-top: 4.5px;
+	margin-bottom: 0px;
+	padding-left:37px;
+	
+	
+}
+
+#navbar li{
+	display:inline;
+	margin: 0 px;
+    height: inherit;
+}
+
+
+
+#navbar a{
+	color:black;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 22.5px;
+	margin: 0 px;	
+	padding-right: 70px;
+	padding-left:100px;
+	
+ font-family: 'Raleway', sans-serif;
+}
+
+
+#navbar a:hover{
+	color:Red;
+}
+
+
+#navbar1{
+	
+	height: 100px;
+	width: 100%;
+	display: inline;
+	padding-top: 45px;
+	padding-left: 60%;
+	padding-bottom: 3px;
+	Background-color:black;
+	color: white;
+	position:fixed;
+	z-index: 4;
+	 font-family: 'Raleway', sans-serif;
+}
+
+#navbar1 ul{
+	
+	height: inherit;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	
+	
+}
+
+#navbar1 li{
+	display:inline;
+	
+	margin: 0 px;
+    height: inherit;
+}
+
+
+
+#navbar1 a{
+	color:white;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 0 px;	
+	padding-right: 10px;
+	padding-left:10px;
+	
+}
+#navbar1 button{
+	
+	
+}
+
+
+#navbar1 a:hover{
+	color:Red;
+}
+

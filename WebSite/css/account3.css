@@ -1,0 +1,114 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+@import "social.css";
+@import "ionicons.min.css";
+
+body{
+	width: auto;
+	margin: 0px auto;
+	
+		
+  
+ 
+  background-color:whitesmoke;
+
+	
+}
+.logoandnav{
+	
+	position:fixed;
+	z-index:10;
+}
+
+.logo img{
+	width:146.8px;
+	height:110px;
+	z-index:10;
+	
+}
+
+.me {
+  width: 800px;
+  margin: 90px auto;
+  margin-bottom:70px;
+  text-align:center;
+  border-top: 0.5px solid grey; /* Green */
+  
+  
+}
+.title{
+	padding-top:170px;
+	text-align:center;
+	font-size:50px;
+}
+.wholeblock{
+	width:1300px;
+	margin:0px auto;
+}
+
+.balance{
+	margin:0px auto;
+	text-align:center;
+	height:250px;
+	width:400px;
+	padding-top:20px;
+	border: 0.1px solid grey; /* Green */
+}
+.balance button{
+	margin-top:10px;
+	font-size:12px;
+	
+}
+.add{
+  cursor: pointer;
+  position: relative;
+  
+  width: auto;
+  margin-top: -22px;
+  padding: 13px;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.4s ease;
+  border-radius: 0 3px 3px 0;
+  background-color:black;
+  border: none;
+  
+}
+.add:hover {
+ 
+  background-color:red;
+  
+}
+
+.info{
+	position:relative;
+	margin:0px auto;
+	width:1000px;
+	height:1000px;
+	
+	
+}
+
+.info h3{
+	font-size:22px;
+	
+	}
+	
+	
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: black;
+}
+.me p {
+  font-weight: 200;
+  
+}
+.me span {
+  font-weight: bold;
+}
+

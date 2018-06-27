@@ -1,0 +1,182 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+
+text{
+	font-size:40px;
+}
+
+body{
+	width: auto;
+	margin: 0px auto;
+}
+
+img.mySlides{
+	width:1493px;
+	height:750px;
+}
+
+.gallery {
+	
+}
+
+.gallery:hover {
+  -webkit-transform: scale(2.3,2.3);
+  
+}
+
+
+
+
+
+.Wholeblock {
+	width: 1500px;
+	margin: 0px auto;
+
+}
+.blockinner{
+	width:1100px;
+	margin:0px auto;
+}
+.picture1 img{
+	width:1100px;
+	height:600px;
+}
+
+
+.stats{
+	width: 1000px;
+	position: relative;
+	top:200px;
+	left:230px;
+}
+
+.stats text{
+	font-size: 25px;
+	position: relative;
+	top:25px;
+	right:110px;
+}
+
+.leaflogo{
+	position:relative;
+	left:20px;
+}
+.milage{
+	position:relative;
+	right: 30px;
+}
+
+.price{
+	
+	position:relative;
+	left:770px;
+	bottom: 255px;
+}
+
+.price text{
+	font-size: 50px;
+}
+
+.modelname{
+	position:relative;
+	bottom:100px;
+}
+
+.modelname img{
+	position:relative;
+	left: 20px;
+}
+.modelname h1{
+	font-size: 60px;
+	padding:0;
+	
+	margin: 0;	
+}
+
+.block2{
+	position:relative;
+	bottom:30px;
+}
+
+.block2 h2{
+	text-align: center;
+	font-size:45px;
+	
+}
+.block2 p{
+	font-size: 30px;	
+}
+
+img.gallery{
+	width:272px;
+	height:150px;
+}
+
+.socialmedia {
+	width:1100px;
+	margin: 10px auto 0px auto;
+	
+	
+	text-align:center;
+}
+
+.socialmedia > div{
+	margin: 3px;
+	margin-bottom: 10px;
+	width:50px;
+	height:50px;
+	background:#eee;
+	text-align:center;
+	line-height:50px;
+	border-radius:50%;
+	color:#fff;
+	transition:all 300ms ease-in-out;
+}
+div.fa-facebook{
+	background:#5252b8;
+	
+}
+div.fa-twitter{
+	background:#00acee;;
+}
+div.fa-google-plus{
+	background:tomato;
+}
+
+div.fa-linkedin{
+	background:#55acee;
+}
+
+div.fa-facebook:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-twitter:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-google-plus:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid tomato;
+}
+
+div.fa-linkedin:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+.bottomtext{
+	width: 1100px;
+	margin:0px auto;
+	text-align:center;
+}
+.bottomtext p{
+	margin:0px auto 16px auto;
+	
+}

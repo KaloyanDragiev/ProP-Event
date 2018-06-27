@@ -1,0 +1,148 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+
+.register {
+	background-color: #333;
+	color: #fff;
+	font-weight: normal;
+	font-size: 50px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin:0px;
+	padding-left: 85px;
+		
+}
+
+
+h1{
+	margin:0px auto;
+	padding-top:100px;
+	text-align:center;
+	font-size: 70px;
+	font-family:Jazz LET, fantasy;
+}
+
+.firstpicture img{
+	width:1100px;
+	height:620px;
+	margin-top: 25px;
+}
+
+
+body{
+	width: auto;
+	margin: 0px auto;
+}
+
+
+.wholeblock{
+	width: 1500px;
+	margin: 0px auto;
+}
+.block{
+	width:1100px;
+	Margin: 0px auto;
+}
+
+
+.midpicture img{
+	width:1100px;
+	height:620px;
+}
+#caroftheyear img {
+	width:1100px;
+height:720px;}
+	
+p{	font-size :25px;
+	font-family:times, sans-serif;
+	line-height:1.4;
+}
+.specs{font-size:27px;}
+
+#navbar{
+	
+	height: 60px;
+	width: 100%;
+	display: inline;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	Background-color:Black;
+	color: #fff;
+	position:fixed;
+	z-index: 1;
+}
+
+.padding {
+	padding-right:70px;
+}
+
+
+
+
+
+
+
+.socialmedia {
+	width:1100px;
+	margin:auto;
+	position:relative;
+	top:20px;
+	text-align:center;
+}
+
+.socialmedia > div{
+	margin: 3px;
+	margin-bottom: 10px;
+	width:50px;
+	height:50px;
+	background:#eee;
+	text-align:center;
+	line-height:50px;
+	border-radius:50%;
+	color:#fff;
+	transition:all 300ms ease-in-out;
+}
+div.fa-facebook{
+	background:#5252b8;
+	
+}
+div.fa-twitter{
+	background:#00acee;;
+}
+div.fa-google-plus{
+	background:tomato;
+}
+
+div.fa-linkedin{
+	background:#55acee;
+}
+
+div.fa-facebook:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-twitter:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-google-plus:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid tomato;
+}
+
+div.fa-linkedin:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+.bottomtext{
+	width: 1100px;
+	margin:auto;
+	text-align:center;
+}

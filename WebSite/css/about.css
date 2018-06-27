@@ -1,0 +1,389 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+@import "social.css";
+
+@import "ionicons.min.css";
+
+
+
+.logoandnav{
+	
+	position:fixed;
+	z-index:10;
+}
+
+.logo img{
+	width:146.8px;
+	height:110px;
+	z-index:10;
+	
+}
+
+body{
+	width: auto;
+	margin: 0px auto;
+	
+		
+  
+  font-family: 'Raleway', sans-serif;
+  background-color:whitesmoke;
+
+	
+}
+
+h1{
+	width:inherit;
+	font-size:50px;
+	text-align:center;
+	
+}
+.sectionabout{position:relative;
+bottom:140px;
+font-size:0.01px;
+color:whitesmoke;
+margin:0px;
+width:1px;
+height:1px;}
+
+.sectionschedule
+{position:relative;
+margin:0px;
+font-size:0.01px;
+color:whitesmoke;
+bottom:250px;
+z-index:-1;
+width:1px;
+height:1px;}
+
+.sectionaccommodation{
+	position:relative;
+margin:0px;
+font-size:0.01px;
+color:whitesmoke;
+bottom:250px;
+z-index:-1;
+width:1px;
+height:1px;
+}
+.sectionlocation{
+	position:relative;
+margin:0px;
+font-size:0.01px;
+color:whitesmoke;
+bottom:160px;
+z-index:-1;
+width:1px;
+height:1px;
+}
+
+.sectionregister{
+	position:relative;
+margin:0px;
+font-size:0.01px;
+color:whitesmoke;
+bottom:160px;
+z-index:-1;
+width:1px;
+height:1px;
+}
+
+.title{
+	width:1600px;
+	margin:0px auto;
+	text-align:center;
+}
+.title h1{position:absolute;
+top:130px;
+text-shadow: 3px 2px black;
+color:white;
+z-index:2;
+font: 400 60px/1.3 'Arizonia', Helvetica, sans-serif;
+}
+
+
+.wholeblock{
+	
+	margin: 0px auto;
+	
+}
+
+.mySlides {
+	padding-top:0px;
+height:680px;
+width:100%;
+filter: brightness(70%);
+padding-top:50px;
+
+}
+.block2{
+	width:inherit;
+	margin:0px auto;
+	
+	
+	
+	
+	
+}
+.label1{
+	font-color:black;
+}
+.add{
+	font-color:black;
+	
+}
+
+
+.block2 h1{
+	width:inherit;
+	font-size:50px;
+	text-align:center;
+	
+}
+
+
+.block3{
+	width:1210px;
+	margin: 0px auto;
+	margin-bottom:50px;
+	
+	
+}
+.block3left{
+	width:600px;
+	display: inline-block;
+	margin:0px;
+	
+	
+	
+	
+}
+.block3right{
+	width:600px;
+	display: inline-block;
+	margin:0px;
+	position:relative;
+	left:30px;
+}
+
+.titleleft{
+	position:absolute;
+	text-align:center;
+	padding-left:70px;
+	margin-bottom:0px;
+}
+.block3left p{
+	margin:0px;
+	font-size:19px;
+	padding-bottom:40px;
+	
+	
+}
+
+
+
+
+.me {
+  width: 800px;
+  margin: 90px auto;
+  margin-bottom:70px;
+  text-align:center;
+  border-top: 0.5px solid grey; /* Green */
+  
+  
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: black;
+}
+.me p {
+  font-weight: 200;
+  
+}
+.me span {
+  font-weight: bold;
+}
+
+
+
+
+.block3left a{
+	  font: bold 20px Arial;
+  text-decoration: none;
+  Background-color:red;
+  color: white;
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius:    3px;
+   -webkit-border-radius: 3px;
+   border-radius:         3px;
+   position:relative;
+  
+   margin-left: 210px;
+   bottom:25px;
+   
+   
+   
+}
+.block3left a:hover{
+  color: #FE6666;
+	background-color: white;
+    border: 2px solid #FE6666; /* Green */
+}
+
+.facts i {
+  color: white!important;
+  font-size: 3em;
+}
+.facts h3 {
+  color: white!important;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section {
+		
+	    display: block;
+}
+.bg-image-1 {
+    background: url(../images/bg-1.jpg) no-repeat center center/cover;
+	position: relative;
+	height: 340px;
+	
+	
+}
+.text-center {
+    text-align: center;
+}
+.bg-image-1::before {
+    
+}
+.bg-image::before, .bg-image-1::before, .bg-image-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.col{
+	width:25%;
+	float:left;
+	padding-top:80px;
+	background-color: rgba(0, 0, 0, 0.7);
+	height:76%;
+	
+}
+i {
+    color: #fff;
+    font-size: 3em;
+}
+
+.day{
+	font-size:24px;
+	font-style: italic;
+	position:relative;
+	bottom:100px;
+	right:65px;
+	
+	
+}
+
+
+
+.accommodation{
+	width:25%;
+	display: inline-block;
+	padding-left:6%;
+	
+}
+.mySlides2{
+	width:100%;
+}
+.mySlides2:hover{
+
+}
+.mySlides3{
+	width:100%;
+}
+.mySlides4{
+	width:100%;
+}
+.block4{
+	width:1500px;
+	margin: 0px auto;
+}
+.block4 h1{
+	width:inherit;
+	font-size:50px;
+	text-align:center;
+	
+}
+
+.btnleft, .btnright {
+  cursor: pointer;
+  position: relative;
+  
+  width: auto;
+  margin-top: -22px;
+  padding: 13px;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  transition: 0.4s ease;
+  border-radius: 0 3px 3px 0;
+  background-color:black;
+  border: none;
+  
+}
+.btnleft:hover, .btnright:hover {
+ 
+  background-color:red;
+  
+}
+
+.btnleft{
+	bottom:260px;
+}
+.btnright{
+	bottom:260px;
+	left:309.5px;
+}
+
+
+.locationblock{
+	width:1400px;
+	margin:0px auto;
+}
+
+.adress{
+	width:20%;
+	display: inline-block;
+	position:relative;
+	bottom:360px;
+}
+.googlemaps{
+	width: 79%;
+	display: inline-block;
+}
+
+footer{
+	
+}
+
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+

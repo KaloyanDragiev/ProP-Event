@@ -1,0 +1,34 @@
+.accblock{
+	width: 40%;
+	
+	display: inline-block;
+	padding-left:7%;
+	
+}
+
+.infoemail p{
+	display: inline-block;
+}
+
+.infoage p{
+	display: inline-block;
+}
+.infoaccommodation p{
+	display: inline-block;
+}
+
+.infoageinside{
+	font-weight: bold;
+}
+
+.infoaccommodationinside{
+	font-weight: bold;
+}
+
+.infoemailinside{
+	font-weight: bold;
+}
+
+.infolbemail{
+	
+}

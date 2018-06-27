@@ -1,0 +1,196 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+@import "social.css";
+@import "logoandnav.css";
+
+img.mySlides{
+	width: inherit;
+	height:600px;
+}
+.wholeblock a{
+	Color: White;
+	text-decoration: none;
+}
+.wholeblock a:hover{
+	color: Red;
+}
+.article:hover {
+  -webkit-transform: scale(1.12,1.12);
+  z-index:2;
+  
+ 
+  
+}
+h2{
+	background-color: Black;
+	color: #fff;
+	padding-left: 5px;
+	font-size: 30px;
+	padding-bottom: 0px;
+}
+
+body{
+	width: auto;
+	margin: 0px auto;
+	background-color: black;
+	
+	
+  font-family: sans-serif;
+	
+}
+
+.wholeblock{
+	width: auto;
+	margin: 0px auto;
+}
+
+.imgbodyindex{
+	position:relative;
+	width:100%;
+	margin-top:150px;
+	
+	
+}
+
+
+
+
+.logoandnav{
+	
+	position:fixed;
+	z-index:10;
+}
+
+
+
+.textblock{
+	width:100%;
+	position:absolute;
+	z-index:1;
+	color: white;
+	top:20%;
+	text-align:center;
+	
+}
+.textblock h3{
+	padding-left:20px;
+	font-weight: 900;
+	color:White;
+	font-size:92px;
+	margin-bottom:5px;
+	margin-top:70px;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+	
+}
+.textblock p{
+	padding-left:12px;
+	font-weight: 900;
+	color:#FE6666;
+	font-size:30px;
+	margin-top:10px;
+	
+}
+.textblock a{
+	  font: bold 40px Arial;
+  text-decoration: none;
+  Background-color:#FE4646;
+  color: white;
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   position:relative;
+   top:20px;
+   
+}
+.textblock a:hover{
+  color: #FE6666;
+	background-color: white;
+    border: 2px solid #FE6666; /* Green */
+}
+
+.formedia{
+	width:100%;
+	margin: 0px auto;
+	position:absolute;
+	text-align:center;
+}
+
+p{color: white;
+
+
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.me {
+  width: 800px;
+  margin: 90px auto;
+  margin-bottom:70px;
+  text-align:center;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+}
+.me p {
+  font-weight: 200;
+  
+}
+.me span {
+  font-weight: bold;
+}
+
+
+

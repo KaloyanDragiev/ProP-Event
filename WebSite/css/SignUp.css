@@ -1,0 +1,184 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+
+body{
+	width: auto;
+	margin: 0px auto;
+}
+
+.firstsent{
+	text-align:center;
+}
+.firstsent p{
+	font-size:20px;
+}
+.terms{
+	text-align:center;
+}
+
+.wholeblock{
+	
+	position:relative;
+	top:70px;
+}
+	
+.form{
+	padding-top:50px;
+	width:700px;
+	margin: 0px auto;
+	position:relative;
+}
+
+.input{
+	display: inline-block;
+	position: Relative;
+	margin-bottom:10px;
+}
+
+.input label{
+	position:relative;
+	padding-right:5px;
+	
+}
+
+.input input{
+	position:relative;
+	width:200px;
+
+}
+.username{
+	margin-left: 50px;
+}
+
+.password{
+	margin-left:54px;
+}
+
+.firstname{
+	margin-left: 43px;
+}
+.lastname{
+	margin-left:46px;
+}
+.repeatpassword{
+	margin-left:2px;
+}
+
+.education{
+	margin-left:6px;
+}
+.email{
+	margin-left:30px;
+	
+}
+.country{
+	margin-left:18px;
+}
+.city{
+	margin-left:47px;
+}
+.job{
+	margin-left:51px;
+}
+
+
+legend{
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:15px;
+}
+.button{
+	text-align:center;
+	margin: 0 auto;
+}
+
+div.button button:hover{
+	
+	
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+
+.button button{
+background-color: Black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 12px 2px 0px 2px;;
+    cursor: pointer;
+}
+.footer{
+	
+}
+
+
+
+
+.socialmedia {
+	width:1100px;
+	margin:auto;
+	position:relative;
+	top:20px;
+	text-align:center;
+}
+
+.socialmedia > div{
+	margin: 3px;
+	margin-bottom: 10px;
+	width:50px;
+	height:50px;
+	background:#eee;
+	text-align:center;
+	line-height:50px;
+	border-radius:50%;
+	color:#fff;
+	transition:all 300ms ease-in-out;
+}
+div.fa-facebook{
+	background:#5252b8;
+	
+}
+div.fa-twitter{
+	background:#00acee;;
+}
+div.fa-google-plus{
+	background:tomato;
+}
+
+div.fa-linkedin{
+	background:#55acee;
+}
+
+div.fa-facebook:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-twitter:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-google-plus:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid tomato;
+}
+
+div.fa-linkedin:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+.bottomtext{
+	width: 1100px;
+	margin:auto;
+	text-align:center;
+}

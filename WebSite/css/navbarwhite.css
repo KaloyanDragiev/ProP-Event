@@ -1,0 +1,103 @@
+.subbar {
+	width:1400px;
+	margin: 0px auto;
+}
+
+
+#navbar{
+	
+	height: 55px;
+	width: 100%;
+	display: inline;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	Background-color:White;
+	color: #fff;
+	position:fixed;
+	z-index: 3;
+	border-bottom: 0.5px solid grey; /* Green */
+	border-top: 1px solid grey; /* Green */
+}
+
+#navbar ul{
+	
+	height: inherit;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	
+	
+}
+
+#navbar li{
+	display:inline;
+	margin: 0 px;
+    height: inherit;
+}
+
+
+
+#navbar a{
+	color:Black;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 30px;
+	margin: 0 px;	
+	padding-right: 70px;
+	padding-left:70px;
+ font-family: 'Raleway', sans-serif;
+}
+
+
+#navbar a:hover{
+	color:Red;
+}
+
+
+#navbar1{
+	
+	height: 160px;
+	width: 100%;
+	display: inline;
+	padding-top: 70px;
+	padding-left: 85%;
+	padding-bottom: 3px;
+	Background-color:white;
+	color: black;
+	position:fixed;
+	z-index: 3;
+	 font-family: 'Raleway', sans-serif;
+}
+
+#navbar1 ul{
+	
+	height: inherit;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	
+	
+}
+
+#navbar1 li{
+	display:inline;
+	
+	margin: 0 px;
+    height: inherit;
+}
+
+
+
+#navbar1 a{
+	color:black;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 px;	
+	padding-right: 10px;
+	padding-left:10px;
+	
+}
+
+
+#navbar1 a:hover{
+	color:Red;
+}

@@ -4,7 +4,7 @@
 
 # [MSEventy]( http://i392329.hera.fhict.nl/) 
 
- **Description:**  The Project represents a website, database and applications, specifically designed for a car show event for a company. This is a univerity project!
+ **Description:**  The Project represents a website, database and applications, specifically designed for a car show event for a company. This is a university project!
 
  **Technologies:**  MySql, Php, JavaScript, HTML, CSS, C#, Windows Forms 
 

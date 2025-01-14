@@ -156,7 +156,7 @@ INSERT INTO `customer` (`CustomerId`, `FirstName`, `LastName`, `Password`, `Emai
 (96, 'Peter', 'Peterson', '123', 'PeterPeterson@gmial.com', 18, 0, '13', NULL),
 (97, 'Peter', 'Peterson', '123', 'ptr@test.gmasil.com', 15, 0, '13', NULL),
 (98, 'Dimitar', 'Petrov', '123', 'dimitarpetrov.02.98@gmail.comtest123', 19, 0, '13', NULL),
-(99, 'kaloyan', 'dragiev', '12345', 'kaloyan.dragiev@gmail.com', 19, 20, '13', NULL);
+(99, 'kaloyan', 'dragiev', '12345', 'kaloyansadf@gmail.com', 19, 20, '13', NULL);
 
 -- --------------------------------------------------------
 
